@@ -4,7 +4,7 @@ terraform {
     hostname     = "app.terraform.io"
     organization = "davinci"
     workspaces {
-      name = "aws-python-lambda-layer"
+      name = "my-first-lambda"
     }
   }
   required_providers {
